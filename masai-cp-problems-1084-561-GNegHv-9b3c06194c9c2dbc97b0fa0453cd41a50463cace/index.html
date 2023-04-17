@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <title>WEB-101 C3</title>
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="stylesheet" href="./styles/navbar.css" />
+  </head>
+  <body>
+    <div id="navbar">
+      <h2>Masai Contact List</h2>
+      <div>
+        <a href="./index.html">
+          <h2>Home</h2>
+        </a>
+        <a href="./contactList.html">
+          <h2>Contact List</h2>
+        </a>
+        <a href="./deleted.html">
+          <h2>Deleted</h2>
+        </a>
+      </div>
+    </div>
+    <div id="create">
+      <h1>Create A Contact</h1>
+      <form>
+        <input id="name" placeholder="Name" type="text" />
+        <input id="desc" placeholder="Description" type="text" />
+        <label for="">Adding Date:-</label>
+        <input type="date" id="addDate" />
+        <input type="number" id="phone" placeholder="Phone Number" />
+        <input type="email" id="email" placeholder="Email" />
+        <select id="type">
+          <option value="">Contact Type</option>
+          <option value="Relative">Relative</option>
+          <option value="Friend">Friend</option>
+          <option value="colleague">colleague</option>
+        </select>
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+  </body>
+  <script src="./Scripts/index.js"></script>
+</html>
